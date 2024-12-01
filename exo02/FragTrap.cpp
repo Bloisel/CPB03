@@ -6,7 +6,7 @@
 /*   By: bloisel <bloisel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/01 06:22:33 by bloisel           #+#    #+#             */
-/*   Updated: 2024/12/01 06:39:39 by bloisel          ###   ########.fr       */
+/*   Updated: 2024/12/01 06:52:05 by bloisel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ FragTrap::FragTrap() : ClapTrap()
 FragTrap::FragTrap(const std::string& name) : ClapTrap(name)
 {
 	this->_HitPoints = 100;
-	this->_EnergyPoints = 50;
-	this->_AttackDamage = 20;
+	this->_EnergyPoints = 100;
+	this->_AttackDamage = 30;
  std::cout << "Frag Trap is Different  " << _Name << " has been constructed!" << std::endl;
 }
 
